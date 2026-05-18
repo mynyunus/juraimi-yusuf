@@ -1,0 +1,17 @@
+{
+  "name": "juraimi-takaful",
+  "compatibility_date": "2026-03-11",
+  "workers_dev": false,
+  "routes": [
+    {
+      "pattern": "juraimi.mynsites.com/*",
+      "custom_domain": true
+    }
+  ],
+  "assets": {
+    "directory": "./public"
+  },
+  "build": {
+    "command": "mkdir -p public && cp index.html styles.css script.js public/ && mkdir -p public/assets && cp -R assets/. public/assets/"
+  }
+}
