@@ -901,9 +901,12 @@ a {
   .hero-content,
   .section-copy,
   .about-intro,
-  .footer-col,
-  .hero-card {
+  .footer-col {
     text-align: center;
+  }
+
+  .hero-card {
+    text-align: left;
   }
 
   .about-layout {
